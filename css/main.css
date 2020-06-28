@@ -505,7 +505,10 @@ address {
    ========================================================================== */
 
 /******TABLET STYLES*****/
+<<<<<<< HEAD
 /******************************/
+=======
+>>>>>>> bc1c63d2833e766dfe29c87d49b9259beca9853e
 
 @media only screen and (min-width: 768px) {
   
@@ -516,6 +519,7 @@ address {
     margin: 100px 0;
   }
 
+<<<<<<< HEAD
   h2 {
     font-size: 2.25em;
     line-height: 1.333;
@@ -528,6 +532,10 @@ address {
 
   /**** Header *****/
   
+=======
+  /**** Header *****/
+
+>>>>>>> bc1c63d2833e766dfe29c87d49b9259beca9853e
   header {
     justify-content: space-around;
     padding: 33px 0;
@@ -538,10 +546,13 @@ address {
     justify-content: space-between;
   }
 
+<<<<<<< HEAD
   header figure {
     width: 30%;
   }
 
+=======
+>>>>>>> bc1c63d2833e766dfe29c87d49b9259beca9853e
   header nav {
     width: 20%;
   }
@@ -556,6 +567,7 @@ address {
   }
 
   /***** Hero area *****/
+<<<<<<< HEAD
 
   .hero-area {
     min-height: 600px;
@@ -567,6 +579,8 @@ address {
     margin: 0;
   }
 
+=======
+>>>>>>> bc1c63d2833e766dfe29c87d49b9259beca9853e
   /**** Aside ****/
 
   aside .content-wrapper {
@@ -583,6 +597,7 @@ address {
     margin: 0;
   }
 
+<<<<<<< HEAD
 
 /***** Features *****/
 
@@ -590,6 +605,12 @@ address {
   margin-bottom: 20px;
 }
 
+=======
+}
+
+/***** Features *****/
+
+>>>>>>> bc1c63d2833e766dfe29c87d49b9259beca9853e
 .features article {
   display: flex;
   justify-content: center;
@@ -599,7 +620,11 @@ address {
 }
 
 .features .features-item-description {
+<<<<<<< HEAD
   width: 62%;
+=======
+  width: 50%;
+>>>>>>> bc1c63d2833e766dfe29c87d49b9259beca9853e
 }
 
 /***** Reviews *****/
@@ -609,19 +634,25 @@ address {
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .reviews h2 {
   width: 85%;
 }
 
+=======
+>>>>>>> bc1c63d2833e766dfe29c87d49b9259beca9853e
 .reviews article div {
   width: 49%;
 }
 
+<<<<<<< HEAD
 .reivews h3 {
   width: 75%;
   margin: 0;
 }
 
+=======
+>>>>>>> bc1c63d2833e766dfe29c87d49b9259beca9853e
 /***** Footer *****/
 
 footer .content-wrapper {
@@ -633,13 +664,17 @@ footer .content-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+<<<<<<< HEAD
   flex-direction: row;
+=======
+>>>>>>> bc1c63d2833e766dfe29c87d49b9259beca9853e
 }
 
 footer .contact {
   margin-bottom: 0;
 }
 
+<<<<<<< HEAD
 footer h4 {
   font-size: 1.5em;
   margin-bottom: 40px;
@@ -649,6 +684,8 @@ footer p {
   line-height: 1.285;
 }
 
+=======
+>>>>>>> bc1c63d2833e766dfe29c87d49b9259beca9853e
 footer .copyright {
   width: 100%;
 }
@@ -677,10 +714,13 @@ footer .copyright {
   align-items: flex-start;
 }
 
+<<<<<<< HEAD
 .contact-content h4 {
   font-size: 1.5em;
 }
 
+=======
+>>>>>>> bc1c63d2833e766dfe29c87d49b9259beca9853e
 /***** FAQ page tablet *****/
 
 .faq .content-wrapper {
@@ -693,6 +733,7 @@ footer .copyright {
 
 .faq h2 {
   width: 100%;
+<<<<<<< HEAD
     }
 
 .faq h4,
@@ -715,6 +756,20 @@ header {
 
 .content-wrapper {
   max-width: 960px;
+=======
+}
+/*****DESKTOP STYLES*****/
+
+@media only screen and (min-width: 1200px) {
+.features {
+  width: 80%;
+}
+
+/****testing for github****testagain/
+
+
+
+>>>>>>> bc1c63d2833e766dfe29c87d49b9259beca9853e
 }
 
 h2 {
