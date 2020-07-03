@@ -113,6 +113,8 @@
   ul, 
   ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
    
   a {
@@ -124,6 +126,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.875em;
+    margin: 0;
   }
    
   h3, 
@@ -340,16 +343,17 @@
     align-items: center;
     flex-flow: row wrap;
   }
-  
+  .features i {
+    font-size: 3.75em;
+    padding-bottom: 40px;
+  }
+
+
   .features p {
     text-align: center;
     margin: 0;
   }
 
-  .features i {
-    font-size: 3.75em;
-    padding-bottom: 40px;
-  }
   
   /* Reviews */
   
@@ -599,7 +603,7 @@
   
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-      width: 35%;
+      width: 40%;
       margin: 0;
     }
   
@@ -619,6 +623,10 @@
     
     .features .features-item-description {
       width: 62%;
+    }
+
+    .features i {
+      margin-bottom: 30px;
     }
   
     /* Reviews */
@@ -664,6 +672,11 @@
   
     footer p {
         line-height: 1.285;
+    }
+
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
     }
   
     footer .copyright {
@@ -763,7 +776,7 @@
   
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-      width: 40%;
+      width: 30%;
     }
   
     .form-description p {
